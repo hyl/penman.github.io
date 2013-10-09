@@ -138,37 +138,10 @@ aside {
   line-height: 2;
 }
 
-.load-comments {
-  text-align: center;
-}
-
 iframe, textarea {
   width: 100%;
   margin: 0;
   @include box-sizing(border-box);
-}
-
-#comments {
-  ul {
-    margin-bottom: 2em; 
-
-    &:not(:empty) {
-      border-bottom: 1px solid #777;
-
-      /* keep the vertical rythym established if we can */
-      margin-bottom: -webkit-calc(2em - 1px);
-      margin-bottom:    -moz-calc(2em - 1px);
-      margin-bottom:         calc(2em - 1px);
-    }
-  }
-
-  &:not(:target) {
-    display: none;
-  }
-
-  &:target + .load-comments {
-    display: none;
-  }
 }
 
 aside {
@@ -209,36 +182,6 @@ textarea {
 article footer {
   text-align: center;
   border-top: 1px solid #777;
-}
-
-#comments li {
-  margin: 2em 0;
-
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .content {
-    position: relative;
-    $avatar-size: 6em;
-    $avatar-margin-right: 1.5em;
-    padding-left: $avatar-size + $avatar-margin-right;
-		$font-size: 1.5em;
-		font-size: $font-size;
-		line-height: 2em/$font-size;
-    min-height: $avatar-size + 1em;
-
-    img {
-      position: absolute;
-      top: 0.5em;
-      left: 0;
-      width: $avatar-size;
-      height: $avatar-size;
-      border-radius: $avatar-size;
-    }
-  }
 }
 
 .index article {

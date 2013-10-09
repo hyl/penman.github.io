@@ -208,11 +208,6 @@ aside {
 }
 
 /* line 141, ../_sass/styles.scss */
-.load-comments {
-  text-align: center;
-}
-
-/* line 145, ../_sass/styles.scss */
 iframe, textarea {
   width: 100%;
   margin: 0;
@@ -221,34 +216,13 @@ iframe, textarea {
   box-sizing: border-box;
 }
 
-/* line 152, ../_sass/styles.scss */
-#comments ul {
-  margin-bottom: 2em;
-}
-/* line 155, ../_sass/styles.scss */
-#comments ul:not(:empty) {
-  border-bottom: 1px solid #777;
-  /* keep the vertical rythym established if we can */
-  margin-bottom: -webkit-calc(2em - 1px);
-  margin-bottom: -moz-calc(2em - 1px);
-  margin-bottom: calc(2em - 1px);
-}
-/* line 165, ../_sass/styles.scss */
-#comments:not(:target) {
-  display: none;
-}
-/* line 169, ../_sass/styles.scss */
-#comments:target + .load-comments {
-  display: none;
-}
-
-/* line 175, ../_sass/styles.scss */
+/* line 148, ../_sass/styles.scss */
 aside h1 {
   font-size: 1.5em;
   line-height: 1.33333;
 }
 
-/* line 182, ../_sass/styles.scss */
+/* line 155, ../_sass/styles.scss */
 input:not([type="submit"]), textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -260,81 +234,53 @@ input:not([type="submit"]), textarea {
   margin: 0;
 }
 
-/* line 191, ../_sass/styles.scss */
+/* line 164, ../_sass/styles.scss */
 input:not([type="submit"]) {
   margin: 0 1ex;
   border: none;
 }
-/* line 195, ../_sass/styles.scss */
+/* line 168, ../_sass/styles.scss */
 input:not([type="submit"]):valid {
   color: green;
 }
-/* line 199, ../_sass/styles.scss */
+/* line 172, ../_sass/styles.scss */
 input:not([type="submit"]):invalid {
   color: red;
 }
 
-/* line 204, ../_sass/styles.scss */
+/* line 177, ../_sass/styles.scss */
 textarea {
   resize: vertical;
   border-color: #777;
 }
 
-/* line 209, ../_sass/styles.scss */
+/* line 182, ../_sass/styles.scss */
 article footer, .post-list footer {
   text-align: center;
   border-top: 1px solid #777;
 }
 
-/* line 214, ../_sass/styles.scss */
-#comments li {
-  margin: 2em 0;
-}
-/* line 217, ../_sass/styles.scss */
-#comments li:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 223, ../_sass/styles.scss */
-#comments li .content {
-  position: relative;
-  padding-left: 7.5em;
-  font-size: 1.5em;
-  line-height: 1.33333;
-  min-height: 7em;
-}
-/* line 233, ../_sass/styles.scss */
-#comments li .content img {
-  position: absolute;
-  top: 0.5em;
-  left: 0;
-  width: 6em;
-  height: 6em;
-  border-radius: 6em;
-}
-
-/* line 244, ../_sass/styles.scss */
+/* line 187, ../_sass/styles.scss */
 .index article, .index .post-list {
   font-size: 2em;
   padding-top: 0;
 }
-/* line 248, ../_sass/styles.scss */
+/* line 191, ../_sass/styles.scss */
 .index article footer, .index .post-list footer {
   margin-top: 2em;
 }
 
-/* line 253, ../_sass/styles.scss */
+/* line 196, ../_sass/styles.scss */
 header h1 a {
   color: inherit;
   text-decoration: none;
 }
-/* line 257, ../_sass/styles.scss */
+/* line 200, ../_sass/styles.scss */
 header h1 a:hover, header h1 a:focus {
   text-decoration: underline;
 }
 
-/* line 269, ../_sass/styles.scss */
+/* line 212, ../_sass/styles.scss */
 .post-list > li {
   list-style: circle inside;
   text-align: center;

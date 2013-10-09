@@ -1,0 +1,273 @@
+@import "compass/reset", "compass";
+
+$debug: false;
+$baseline: 12px;
+
+@if $debug {
+  body * {
+    background: rgba(red, 0.1);
+  }
+}
+
+body {
+  font: #{$baseline}/#{2 * $baseline} serif;
+
+  @if debug {
+     // background: url(http://localhost:4567?height=#{$baseline});
+  }
+}
+
+/* header, */ h1 {
+  font-family: Merriweather, serif;
+}
+
+/* Header Styles */
+/* Use a lot of ems so the header unit is easily resizeable */
+
+header {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 2em 0;
+
+  img {
+    height: 8em;
+    width: 8em;
+    border-radius: 8em;
+  }
+
+  h1 {
+    margin-top: .5em;
+  }
+
+  nav {
+    margin-top: $baseline - 1px;
+
+    a {
+      margin: 0 .5em;
+      display: inline-block;
+    }
+  }
+}
+
+a {
+  color: #0066F9;
+}
+
+body > article {
+  font-size: 1.5em;
+  max-width: 75ex;
+  margin: 0 auto;
+  padding: 2% 7%;
+
+  h1 {
+    line-height: 1.3333333em;
+  }
+}
+
+h1 {
+  $font-size: 1.9em;
+  line-height: 2em / $font-size;
+  font: {
+    size: $font-size;
+    weight: bold;
+  }
+}
+
+p, article footer {
+  margin: 1em 0;
+}
+
+b, strong {
+  font-weight: 900;
+}
+
+i, em {
+  font-style: italic;
+}
+
+code {
+  font-family: monospace;;
+}
+
+.footnote:before {
+  content: "* ";
+}
+
+:target {
+  @include experimental(animation, flash 2s, -moz, -webkit, -o, not -ms, official)
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes $name {
+    @content;
+  }
+
+  @-moz-keyframes $name {
+    @content;
+  }
+
+  @-o-keyframes $name {
+    @content;
+  }
+
+  @keyframes $name {
+    @content;
+  }
+}
+
+@include keyframes("flash") {
+  0%, 50% {
+    background: yellow;
+  }
+}
+
+footer {
+  margin-bottom: 1em;
+}
+
+hr {
+  $border-height: 1px;
+  height: $baseline - $border-height;
+  border: none;
+  border-bottom: $border-height solid #777;
+  margin-top: -$baseline;
+}
+
+aside {
+  font-size: $baseline;
+  line-height: 2;
+}
+
+.load-comments {
+  text-align: center;
+}
+
+iframe, textarea {
+  width: 100%;
+  margin: 0;
+  @include box-sizing(border-box);
+}
+
+#comments {
+  ul {
+    margin-bottom: 2em; 
+
+    &:not(:empty) {
+      border-bottom: 1px solid #777;
+
+      /* keep the vertical rythym established if we can */
+      margin-bottom: -webkit-calc(2em - 1px);
+      margin-bottom:    -moz-calc(2em - 1px);
+      margin-bottom:         calc(2em - 1px);
+    }
+  }
+
+  &:not(:target) {
+    display: none;
+  }
+
+  &:target + .load-comments {
+    display: none;
+  }
+}
+
+aside {
+  h1 {
+    $font-size: 1.5em;
+    font-size: $font-size;
+    line-height: 2em / $font-size;
+  }
+}
+
+input:not([type="submit"]), textarea {
+  @include appearance(none);
+  font: inherit;
+  font-family: monospace;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+input:not([type="submit"]) {
+  margin: 0 1ex;
+  border: none;
+
+  &:valid {
+    color: green;
+  }
+
+  &:invalid {
+    color: red;
+  }
+}
+
+textarea {
+  resize: vertical;
+  border-color: #777;
+}
+
+article footer {
+  text-align: center;
+  border-top: 1px solid #777;
+}
+
+#comments li {
+  margin: 2em 0;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .content {
+    position: relative;
+    $avatar-size: 6em;
+    $avatar-margin-right: 1.5em;
+    padding-left: $avatar-size + $avatar-margin-right;
+		$font-size: 1.5em;
+		font-size: $font-size;
+		line-height: 2em/$font-size;
+    min-height: $avatar-size + 1em;
+
+    img {
+      position: absolute;
+      top: 0.5em;
+      left: 0;
+      width: $avatar-size;
+      height: $avatar-size;
+      border-radius: $avatar-size;
+    }
+  }
+}
+
+.index article {
+	font-size: 2em;
+	padding-top: 0;
+	
+	footer {
+		margin-top: 2em;
+	}
+}
+
+%subtle-link {
+	color: inherit;
+	text-decoration: none;
+	
+	&:hover, &:focus {
+		text-decoration: underline;
+	}
+}
+
+header h1 a {
+	@extend %subtle-link;
+}
+
+.post-list {
+	@extend article;
+	
+	> li {
+		list-style: circle inside;
+		text-align: center;
+	}
+}

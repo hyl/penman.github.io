@@ -1,0 +1,341 @@
+/* line 17, ../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article,
+.post-list, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, .post-list, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 12, ../_sass/styles.scss */
+body {
+  font: 12px/24px serif;
+}
+
+/* header, */
+/* line 20, ../_sass/styles.scss */
+h1 {
+  font-family: Merriweather, serif;
+}
+
+/* Header Styles */
+/* Use a lot of ems so the header unit is easily resizeable */
+/* line 27, ../_sass/styles.scss */
+header {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 2em 0;
+}
+/* line 32, ../_sass/styles.scss */
+header img {
+  height: 8em;
+  width: 8em;
+  border-radius: 8em;
+}
+/* line 38, ../_sass/styles.scss */
+header h1 {
+  margin-top: .5em;
+}
+/* line 42, ../_sass/styles.scss */
+header nav {
+  margin-top: 11px;
+}
+/* line 45, ../_sass/styles.scss */
+header nav a {
+  margin: 0 .5em;
+  display: inline-block;
+}
+
+/* line 52, ../_sass/styles.scss */
+a {
+  color: #0066F9;
+}
+
+/* line 56, ../_sass/styles.scss */
+body > article, body > .post-list {
+  font-size: 1.5em;
+  max-width: 75ex;
+  margin: 0 auto;
+  padding: 2% 7%;
+}
+/* line 62, ../_sass/styles.scss */
+body > article h1, body > .post-list h1 {
+  line-height: 1.3333333em;
+}
+
+/* line 67, ../_sass/styles.scss */
+h1 {
+  line-height: 1.05263;
+  font-size: 1.9em;
+  font-weight: bold;
+}
+
+/* line 76, ../_sass/styles.scss */
+p, article footer, .post-list footer {
+  margin: 1em 0;
+}
+
+/* line 80, ../_sass/styles.scss */
+b, strong {
+  font-weight: 900;
+}
+
+/* line 84, ../_sass/styles.scss */
+i, em {
+  font-style: italic;
+}
+
+/* line 88, ../_sass/styles.scss */
+code {
+  font-family: monospace;
+}
+
+/* line 92, ../_sass/styles.scss */
+.footnote:before {
+  content: "* ";
+}
+
+/* line 96, ../_sass/styles.scss */
+:target {
+  -webkit-animation: flash 2s;
+  -moz-animation: flash 2s;
+  -o-animation: flash 2s;
+  animation: flash 2s;
+}
+
+@-webkit-keyframes flash {
+  /* line 119, ../_sass/styles.scss */
+  0%, 50% {
+    background: yellow;
+  }
+}
+
+@-moz-keyframes flash {
+  /* line 119, ../_sass/styles.scss */
+  0%, 50% {
+    background: yellow;
+  }
+}
+
+@-o-keyframes flash {
+  /* line 119, ../_sass/styles.scss */
+  0%, 50% {
+    background: yellow;
+  }
+}
+
+@keyframes flash {
+  /* line 119, ../_sass/styles.scss */
+  0%, 50% {
+    background: yellow;
+  }
+}
+
+/* line 124, ../_sass/styles.scss */
+footer {
+  margin-bottom: 1em;
+}
+
+/* line 128, ../_sass/styles.scss */
+hr {
+  height: 11px;
+  border: none;
+  border-bottom: 1px solid #777777;
+  margin-top: -12px;
+}
+
+/* line 136, ../_sass/styles.scss */
+aside {
+  font-size: 12px;
+  line-height: 2;
+}
+
+/* line 141, ../_sass/styles.scss */
+.load-comments {
+  text-align: center;
+}
+
+/* line 145, ../_sass/styles.scss */
+iframe, textarea {
+  width: 100%;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 152, ../_sass/styles.scss */
+#comments ul {
+  margin-bottom: 2em;
+}
+/* line 155, ../_sass/styles.scss */
+#comments ul:not(:empty) {
+  border-bottom: 1px solid #777;
+  /* keep the vertical rythym established if we can */
+  margin-bottom: -webkit-calc(2em - 1px);
+  margin-bottom: -moz-calc(2em - 1px);
+  margin-bottom: calc(2em - 1px);
+}
+/* line 165, ../_sass/styles.scss */
+#comments:not(:target) {
+  display: none;
+}
+/* line 169, ../_sass/styles.scss */
+#comments:target + .load-comments {
+  display: none;
+}
+
+/* line 175, ../_sass/styles.scss */
+aside h1 {
+  font-size: 1.5em;
+  line-height: 1.33333;
+}
+
+/* line 182, ../_sass/styles.scss */
+input:not([type="submit"]), textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font: inherit;
+  font-family: monospace;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 191, ../_sass/styles.scss */
+input:not([type="submit"]) {
+  margin: 0 1ex;
+  border: none;
+}
+/* line 195, ../_sass/styles.scss */
+input:not([type="submit"]):valid {
+  color: green;
+}
+/* line 199, ../_sass/styles.scss */
+input:not([type="submit"]):invalid {
+  color: red;
+}
+
+/* line 204, ../_sass/styles.scss */
+textarea {
+  resize: vertical;
+  border-color: #777;
+}
+
+/* line 209, ../_sass/styles.scss */
+article footer, .post-list footer {
+  text-align: center;
+  border-top: 1px solid #777;
+}
+
+/* line 214, ../_sass/styles.scss */
+#comments li {
+  margin: 2em 0;
+}
+/* line 217, ../_sass/styles.scss */
+#comments li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 223, ../_sass/styles.scss */
+#comments li .content {
+  position: relative;
+  padding-left: 7.5em;
+  font-size: 1.5em;
+  line-height: 1.33333;
+  min-height: 7em;
+}
+/* line 233, ../_sass/styles.scss */
+#comments li .content img {
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  width: 6em;
+  height: 6em;
+  border-radius: 6em;
+}
+
+/* line 244, ../_sass/styles.scss */
+.index article, .index .post-list {
+  font-size: 2em;
+  padding-top: 0;
+}
+/* line 248, ../_sass/styles.scss */
+.index article footer, .index .post-list footer {
+  margin-top: 2em;
+}
+
+/* line 253, ../_sass/styles.scss */
+header h1 a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 257, ../_sass/styles.scss */
+header h1 a:hover, header h1 a:focus {
+  text-decoration: underline;
+}
+
+/* line 269, ../_sass/styles.scss */
+.post-list > li {
+  list-style: circle inside;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+---
+layout: default
+title: history.pushState, Part 2
+---
+Following on from my <a href="http://rosspenman.com/pushstate-jquery">introduction to <code class="lang-javascript">history.pushState</code></a>, I thought I'd share a tip on making it more efficient.
+
+When we load in new content with AJAX, we only really use the main part of the document, <code class="lang-markup">&lt;main&gt;</code> in my case. Headers and footers, etc. are discarded. One way could detect this is my appending a query string to the end of the URL, so <span class="url">http://rosspenman.com/sass-web-fonts</span> would become <span class="url">http://rosspenman.com/sass-web-fonts?ajax=yes</span>. But there is an even more elegant way to do it.
+
+I use PHP and WordPress on this site, but this should be applicable to any other server-side language or framework.
+
+With WordPress, all of your theme functions are set in a file called <span class="filename">functions.php</span>, which, because it declares all of your functions, is run before any other file in your theme. In this file, we can set a boolean variable, <code class="lang-clike">$ajax</code>, that tell us whether or not the current page is being loaded by AJAX.
+
+<pre><code class="lang-php">$ajax = !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';</code></pre>
+
+And then later on, when we would usually use <code class="lang-clike">get_header();</code> and <code class="lang-clike">get_footer();</code>, we can check to see if the page is being loaded with AJAX, and only include them if it is not.
+
+<pre><code class="lang-php">if (!$ajax) get_header();
+// Main code
+if (!$ajax) get_footer();
+</code></pre>
+
+The only part of the page now missing when the page is being loaded with AJAX is the title, which we can simply output in <span class="filename">functions.php</span> if necessary.
+
+<pre><code class="lang-php">$ajax = !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
+if ($ajax) {
+  echo '&lt;title&gt;'; wp_title(); echo '&lt;/title&gt;';
+}
+</code></pre>
+
+And that's it!

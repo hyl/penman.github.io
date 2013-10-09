@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>{% if page.title %} {{ page.title }} | {% endif %} Ross Penman</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700italic,900,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body class="index">
+
+  <header>
+    <img src="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=192" width="192" height="192" alt="" />
+
+    <h1><a href="/">Ross Penman</a></h1>
+
+    <nav>
+      <a href="https://twitter.com/PenmanRoss" title="@PenmanRoss">Twitter</a>
+      <a href="https://github.com/rosspenman" title="@rosspenman">GitHub</a>
+      <a href="/blog">Blog</a>
+    </nav>
+  </header>
+
+  <ol class="post-list">
+  	{% for post in site.posts %}
+  
+	  <li>
+		  <a href="{{ post.url }}">{{ post.title }}</a>
+	  </li>
+	  
+	  {% endfor %}
+	  
+  	<footer>
+			<p><a href="https://twitter.com/PenmanRoss" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @PenmanRoss</a></div>
+		    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</footer>
+  </ol>
+
+
+</body>
+</html>

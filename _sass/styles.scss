@@ -10,7 +10,7 @@ $baseline: 12px;
 }
 
 body {
-  font: #{$baseline}/#{2 * $baseline} serif;
+  font: #{$baseline}/#{2 * $baseline} Georgia, serif;
 
   @if debug {
      // background: url(http://localhost:4567?height=#{$baseline});

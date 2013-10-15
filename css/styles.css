@@ -260,27 +260,37 @@ article footer, .post-list footer {
   border-top: 1px solid #777;
 }
 
-/* line 187, ../_sass/styles.scss */
+/* line 188, ../_sass/styles.scss */
+article ul, .post-list ul, article ol, .post-list ol {
+  list-style: outside;
+  padding-left: 2em;
+}
+/* line 193, ../_sass/styles.scss */
+article ol, .post-list ol {
+  list-style-type: decimal;
+}
+
+/* line 198, ../_sass/styles.scss */
 .index article, .index .post-list {
   font-size: 2em;
   padding-top: 0;
 }
-/* line 191, ../_sass/styles.scss */
+/* line 202, ../_sass/styles.scss */
 .index article footer, .index .post-list footer {
   margin-top: 2em;
 }
 
-/* line 196, ../_sass/styles.scss */
+/* line 207, ../_sass/styles.scss */
 header h1 a {
   color: inherit;
   text-decoration: none;
 }
-/* line 200, ../_sass/styles.scss */
+/* line 211, ../_sass/styles.scss */
 header h1 a:hover, header h1 a:focus {
   text-decoration: underline;
 }
 
-/* line 212, ../_sass/styles.scss */
+/* line 223, ../_sass/styles.scss */
 .post-list > li {
   list-style: circle inside;
   text-align: center;

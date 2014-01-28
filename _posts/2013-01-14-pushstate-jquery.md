@@ -8,8 +8,6 @@ Everybody knows that <abbr title="Asynchronous JavaScript and XML">AJAX</abbr> i
 
 `history.pushState` is becoming more and more popular, particularly after it was implemented at <a href="https://github.com">GitHub</a>.
 
-I also use it on this site.
-
 The basic syntax for `history.pushState` is this:
 
 {% highlight javascript %}
@@ -312,4 +310,4 @@ $(function() {
 
 By checking whether the event's `state` is null, this will tell us if this is the first page requested on our site. If it is not the first page, the `state` will be the identifier you specified earlier in the first parameter of `history.pushState`.
 
-That should be all you need to get your site working with `history.pushState`. Share your experiences in the comments!
+That should be all you need to get your site working with `history.pushState`.

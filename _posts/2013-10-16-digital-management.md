@@ -3,7 +3,6 @@ layout: default
 title: Digital Management is Unnecessary Punishment
 ---
 
-
 The way Twitter mentions are generally used is as follows:
 
 1. A list of mentions is displayed.

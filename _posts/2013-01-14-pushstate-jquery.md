@@ -54,7 +54,7 @@ $(function() {
   var $main = $("main");
 
   $("a, area").click(function() {
-    var href = $("this").attr("href");
+    var href = $(this).attr("href");
 
     history.pushState({}, '', href);
     $main.load(href + " main>*");
@@ -74,7 +74,7 @@ $(function() {
   var $main = $("main");
 
   $(document).on("click", "a, area", function() {
-    var href = $("this").attr("href");
+    var href = $(this).attr("href");
 
     history.pushState({}, '', href);
     $main.load(href + " main>*");
@@ -96,7 +96,7 @@ $(function() {
   init();
 
   $(document).on("click", "a, area", function() {
-    var href = $("this").attr("href");
+    var href = $(this).attr("href");
 
     history.pushState({}, '', href);
     $main.load(href + " main>*", init);
@@ -126,7 +126,7 @@ $(function() {
   init();
 
   $(document).on("click", "a, area", function() {
-    var href = $("this").attr("href");
+    var href = $(this).attr("href");
 
     history.pushState({}, '', href);
     $main.load(href + " main>*", ajaxLoad);
@@ -161,7 +161,7 @@ $(function() {
   init();
 
   $(document).on("click", "a, area", function() {
-    var href = $("this").attr("href");
+    var href = $(this).attr("href");
 
     history.pushState({}, '', href);
     $main.load(href + " main>*", ajaxLoad);
@@ -196,7 +196,7 @@ $(function() {
   init();
 
   $(document).on("click", "a, area", function() {
-    var href = $("this").attr("href");
+    var href = $(this).attr("href");
 
     if (href.indexOf(document.domain) > -1
       || href.indexOf(':') === -1)
@@ -235,7 +235,7 @@ $(function() {
     init();
   },
   
-  loadPage = function(url) {
+  loadPage = function(href) {
     history.pushState({}, '', href);
     $main.load(href + " main>*", ajaxLoad);
   };
@@ -247,7 +247,7 @@ $(function() {
   });
 
   $(document).on("click", "a, area", function() {
-    var href = $("this").attr("href");
+    var href = $(this).attr("href");
 
     if (href.indexOf(document.domain) > -1
       || href.indexOf(':') === -1)
@@ -284,7 +284,7 @@ $(function() {
     init();
   },
   
-  loadPage = function(url) {
+  loadPage = function(href) {
     history.pushState({}, '', href);
     $main.load(href + " main>*", ajaxLoad);
   };
@@ -292,13 +292,13 @@ $(function() {
   init();
   
   $(window).on("popstate", function(e) {
-    if (e.orginalEvent.state !== null) {
+    if (e.originalEvent.state !== null) {
       loadPage(location.href);
     }
   });
 
   $(document).on("click", "a, area", function() {
-    var href = $("this").attr("href");
+    var href = $(this).attr("href");
 
     if (href.indexOf(document.domain) > -1
       || href.indexOf(':') === -1)

@@ -515,7 +515,7 @@ h3 {
 }
 
 /* line 88, ../_sass/styles.scss */
-p, article footer, .post-list ol footer {
+p, article footer, .post-list ol footer, li {
   margin: 1em 0;
 }
 

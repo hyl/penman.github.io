@@ -85,7 +85,7 @@ h3 {
   @include heading(1.2em);
 }
 
-p, article footer {
+p, article footer, li {
   margin: 1em 0;
 }
 

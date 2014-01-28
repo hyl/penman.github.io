@@ -1,4 +1,4 @@
-@import "compass/reset", "compass";
+@import "compass/reset", "compass", "syntax";
 
 $debug: false;
 $baseline: 12px;
@@ -15,10 +15,6 @@ body {
   @if debug {
      // background: url(http://localhost:4567?height=#{$baseline});
   }
-}
-
-/* header, */ h1 {
-  font-family: Merriweather, serif;
 }
 
 /* Header Styles */
@@ -64,13 +60,29 @@ body > article {
   }
 }
 
-h1 {
-  $font-size: 1.9em;
+@mixin heading($font-size, $top-margin: true) {
+  @if $top-margin {
+    margin-top: 1em / $font-size * 1em;
+  }
+
   line-height: 2em / $font-size;
   font: {
     size: $font-size;
+    family: Merriweather, serif;
     weight: bold;
   }
+}
+
+h1 {
+  @include heading(1.9em, false);
+}
+
+h2 {
+  @include heading(1.65em);
+}
+
+h3 {
+  @include heading(1.2em);
 }
 
 p, article footer {
@@ -225,4 +237,8 @@ header h1 a {
 		text-align: center;
     margin: .5em 0;
 	}
+}
+
+pre {
+  padding-left: 1.5em;
 }

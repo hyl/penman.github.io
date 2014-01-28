@@ -1,2 +1,3 @@
 _site
+.bundle
 _sass/.sass-cache/

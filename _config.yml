@@ -1,3 +1,6 @@
 permalink: /:title
 pygments: true
 markdown: rdiscount
+name: Ross Penman
+url: "http://rosspenman.com"
+

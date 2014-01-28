@@ -296,3 +296,24 @@ blockquote {
 address {
   font-style: italic;
 }
+
+kbd {
+  background: red;
+  padding: 0 0.5em;
+  margin: -1px 0.2em;
+  border: 1px solid gray;
+  line-height: 1.4em;
+  display: inline-block;
+  text: {
+    shadow: 0 1px rgba(white, 0.7);
+    align: center;
+  }
+  font: {
+    family: Helvetica, sans-serif;
+    weight: 300;
+  }
+
+  @include background(linear-gradient(#ffffff, #e6e6e6, #ffffff));
+  @include border-radius(0.5em);
+  @include box-shadow(0 1px #4d4d4d);
+}

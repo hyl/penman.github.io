@@ -746,3 +746,30 @@ blockquote + address:before {
 address {
   font-style: italic;
 }
+
+/* line 300, ../_sass/styles.scss */
+kbd {
+  background: red;
+  padding: 0 0.5em;
+  margin: -1px 0.2em;
+  border: 1px solid gray;
+  line-height: 1.4em;
+  display: inline-block;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #e6e6e6), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(#ffffff, #e6e6e6, #ffffff);
+  background: -moz-linear-gradient(#ffffff, #e6e6e6, #ffffff);
+  background: -o-linear-gradient(#ffffff, #e6e6e6, #ffffff);
+  background: linear-gradient(#ffffff, #e6e6e6, #ffffff);
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0 1px #4d4d4d;
+  -moz-box-shadow: 0 1px #4d4d4d;
+  box-shadow: 0 1px #4d4d4d;
+}

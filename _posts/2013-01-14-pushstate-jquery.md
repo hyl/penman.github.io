@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <code>history.pushState</code> and jQuery
+title: history.pushState and jQuery
 ---
 ## Introduction to `history.pushState`
 

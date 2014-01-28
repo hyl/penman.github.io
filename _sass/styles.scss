@@ -247,3 +247,52 @@ header h1 a {
 pre {
   padding-left: 1.5em;
 }
+
+blockquote {
+  $vertical-inset: .5em;
+  $border-width: .5em;
+  $after-border: 3%;
+
+  margin-top: 1em - $vertical-inset;
+  padding-top: $vertical-inset;
+
+  > :first-child {
+    margin-top: 0;
+
+    &:before {
+      content: "“";
+    }
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+
+    &:after {
+      content: "”";
+    }
+  }
+
+  &, + address {
+    padding-left: $after-border;
+    border-left: $border-width solid green;
+
+    @media (min-width: 750px) {
+      margin-left: -1em;
+    }
+  }
+
+  + address {
+    font-style: italic;
+    padding-top: 1em;
+    padding-bottom: $vertical-inset;
+    margin-bottom: 1em - $vertical-inset;
+
+    &:before {
+      content: "— ";
+    }
+  }
+}
+
+address {
+  font-style: italic;
+}

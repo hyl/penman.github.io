@@ -9,7 +9,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article,
-.post-list, aside, canvas, details, embed,
+.post-list ol, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
@@ -60,7 +60,7 @@ a img {
 }
 
 /* line 116, ../../.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, .post-list, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+article, .post-list ol, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
@@ -477,14 +477,14 @@ a {
 }
 
 /* line 52, ../_sass/styles.scss */
-body > article, body > .post-list {
+body > article, .post-list body > ol {
   font-size: 1.5em;
   max-width: 75ex;
   margin: 0 auto;
   padding: 2% 7%;
 }
 /* line 58, ../_sass/styles.scss */
-body > article h1, body > .post-list h1 {
+body > article h1, .post-list body > ol h1 {
   line-height: 1.3333333em;
 }
 
@@ -515,7 +515,7 @@ h3 {
 }
 
 /* line 88, ../_sass/styles.scss */
-p, article footer, .post-list footer {
+p, article footer, .post-list ol footer {
   margin: 1em 0;
 }
 
@@ -642,28 +642,28 @@ textarea {
 }
 
 /* line 194, ../_sass/styles.scss */
-article footer, .post-list footer {
+article footer, .post-list ol footer {
   text-align: center;
   border-top: 1px solid #777;
 }
 
 /* line 200, ../_sass/styles.scss */
-article ul, .post-list ul, article ol, .post-list ol {
+article ul, .post-list ol ul, article ol, .post-list ol ol {
   list-style: outside;
   padding-left: 2em;
 }
 /* line 205, ../_sass/styles.scss */
-article ol, .post-list ol {
+article ol, .post-list ol ol {
   list-style-type: decimal;
 }
 
 /* line 210, ../_sass/styles.scss */
-.index article, .index .post-list {
+.index article, .index .post-list ol, .post-list .index ol {
   font-size: 2em;
   padding-top: 0;
 }
 /* line 214, ../_sass/styles.scss */
-.index article footer, .index .post-list footer {
+.index article footer, .index .post-list ol footer, .post-list .index ol footer {
   margin-top: 2em;
 }
 
@@ -677,14 +677,22 @@ header h1 a:hover, header h1 a:focus {
   text-decoration: underline;
 }
 
-/* line 235, ../_sass/styles.scss */
-.post-list > li {
-  list-style: circle inside;
+/* line 232, ../_sass/styles.scss */
+.post-list {
   text-align: center;
+}
+/* line 235, ../_sass/styles.scss */
+.post-list ol {
+  display: inline-block;
+  text-align: left;
+}
+/* line 240, ../_sass/styles.scss */
+.post-list ol > li {
+  list-style: circle inside;
   margin: .5em 0;
 }
 
-/* line 242, ../_sass/styles.scss */
+/* line 247, ../_sass/styles.scss */
 pre {
   padding-left: 1.5em;
 }

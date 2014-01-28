@@ -230,13 +230,18 @@ header h1 a {
 }
 
 .post-list {
-	@extend article;
-	
-	> li {
-		list-style: circle inside;
-		text-align: center;
-    margin: .5em 0;
-	}
+  text-align: center; // center ol
+
+  ol {
+  	@extend article;
+    display: inline-block; // intrinsic size
+    text-align: left; // reset alignment
+  	
+  	> li {
+  		list-style: circle inside;
+      margin: .5em 0;
+  	}
+  }
 }
 
 pre {

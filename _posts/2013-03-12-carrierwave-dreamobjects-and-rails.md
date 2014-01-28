@@ -17,14 +17,14 @@ I used the following for the contents of the newly-created file:
 CarrierWave.configure do |config|
   config.fog_credentials = {
     provider: "AWS",
-    aws_access_key_id: "&lt;YOUR ACCESS KEY&gt;",
-    aws_secret_access_key: "&lt;YOUR SECRET KEY&gt;",
+    aws_access_key_id: "<YOUR ACCESS KEY>",
+    aws_secret_access_key: "<YOUR SECRET KEY>",
     host: 'objects.dreamhost.com'
   }
-  config.fog_directory = '&lt;YOUR BUCKET NAME&gt;.objects.dreamhost.com'
+  config.fog_directory = '<YOUR BUCKET NAME>.objects.dreamhost.com'
   config.fog_public = true # Change to false if you don't want files to be public.
   config.fog_authenticated_url_expiration = 600
-  config.asset_host = "http://&lt;YOUR BUCKET NAME&gt;.objects.dreamhost.com"
+  config.asset_host = "http://<YOUR BUCKET NAME>.objects.dreamhost.com"
 end
 {% endhighlight %}
 

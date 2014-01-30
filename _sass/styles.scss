@@ -62,7 +62,7 @@ body > article {
 
 @mixin heading($font-size, $top-margin: true) {
   @if $top-margin {
-    margin-top: 1em / $font-size * 1em;
+    margin-top: 2em / $font-size * 1em;
   }
 
   line-height: 2em / $font-size;

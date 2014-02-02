@@ -3,17 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>{% if page.title %} {{ page.title }} | {% endif %} Ross Penman</title>
+  <meta name="description" content="{{ content | strip_html | truncate: 160 }}">
+  <meta property="og:image" content="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=50">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:type" content="blog">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}">
+  <meta name="twitter:description" content="{{ content | strip_html | truncate: 200 }}"
+  <meta name="twitter:image" content="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=120">
+  <meta name="twitter:site" content="@PenmanRoss">
+  <meta name="twitter:creator" content="@PenmanRoss">
+  <meta name="twitter:domain" content="{{ site.url }}">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=144">
+  <meta name="msapplication-square70x70logo" content="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=70">
+  <meta name="msapplication-square150x150logo" content="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=150">
+  <link rel="apple-touch-icon-precomposed" href="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=152">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <link rel="stylesheet" href="/css/styles.css">
-  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700italic,900,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather:400,700italic,900,400italic">
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
+  <link rel="icon" href="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=32" sizes="32x32">
+  <link rel="icon" href="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=96" sizes="96x96">
+  <link rel="icon" href="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=128" sizes="128x128">
+  <link rel="icon" href="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=195" sizes="195x195">
+  <link rel="icon" href="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=228" sizes="228x228">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 </head>
 <body>
 
   <header>
     <img src="http://gravatar.com/avatar/94535d1ebaa0e495e758ee64b9d0e6d8?s=192" width="192" height="192" alt="" />
 
-    <h1><a href="/">Ross Penman</a></h1>
+    <h1><a href="/">{{ site.name }}</a></h1>
 
     <nav>
       <a href="https://twitter.com/PenmanRoss" title="@PenmanRoss">Twitter</a>

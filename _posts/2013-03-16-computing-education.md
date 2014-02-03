@@ -83,6 +83,6 @@ So what could we improve upon? How could we change computing to make it more int
 
 - Students are more intelligent than you think. The reason you may have opinions to the contrary is, in my mind, because the students you have experienced have not been stimulated enough. We all have the power to do great things and express ourselves, but **creativity and boredom do not blend.**
 
-- Finally, computing needs to be considered a "real" subject. The people who change the world today are not politicians, they are programmers. Anybody with a keyboard and an Internet connection a voice. We need to be teaching people how to use computers to their benefit, and teaching PowerPoint alone just isn't cutting it.
+- Finally, computing needs to be considered a "real" subject. The people who change the world today are not politicians, they are programmers. Anybody with a keyboard and an Internet connection has a voice. We need to be teaching people how to use computers to their benefit, and teaching PowerPoint alone just isn't cutting it.
 
 <small id="small-tag-footnote" class="footnote">Yes, I know `<small>` is still valid in HTML5.</small>

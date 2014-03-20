@@ -19,6 +19,7 @@ CarrierWave.configure do |config|
     provider: "AWS",
     aws_access_key_id: "<YOUR ACCESS KEY>",
     aws_secret_access_key: "<YOUR SECRET KEY>",
+    connection_options: { ssl_version: :TSLv1 }, # SSLv3 gets a handshake error on DreamObjects
     host: 'objects.dreamhost.com'
   }
   config.fog_directory = '<YOUR BUCKET NAME>.objects.dreamhost.com'

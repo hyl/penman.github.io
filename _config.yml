@@ -3,4 +3,4 @@ pygments: true
 markdown: rdiscount
 name: Ross Penman
 url: "http://rosspenman.com"
-
+include: [".well-known"]

@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/penman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://rosspenman.com
+  * I am penman (https://keybase.io/penman) on keybase.
+  * I have a public key with fingerprint D9E0 3FE5 D5B0 0AC2 24D9  E50E A221 FC01 0387 F5F9
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "d9e03fe5d5b00ac224d9e50ea221fc010387f5f9",
+            "host": "keybase.io",
+            "key_id": "a221fc010387f5f9",
+            "uid": "24217ad5e69ac3a9f409665a2691c300",
+            "username": "penman"
+        },
+        "service": {
+            "hostname": "rosspenman.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396699559,
+    "expire_in": 157680000,
+    "prev": "f1eedb19b9a3e606575963938abb91f1adbc75b2c753e0ea54f17c08945a9847",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.3
+Comment: https://keybase.io/crypto
+
+yMMCAnicbZF7UBVlGMbPIVA7yEEcEuIy1ApWdOa4e/bs7tljJRmSis1YmOgQwV6+
+hRXP7mF3uV5GcKBpdBgQFYhLFy8xB5Mskms0aNLYRNJYHWOMyriEg1JcJkwu+h2y
+/9o/9pt93t/zvO9+72W/R3QGvX/C+up4NOKU/pveqSxdwuappgKElfk8xF6AZIDl
+QxClNKA4FVHSEDvC0wDFBUDwBIuiDGexWKFCoICxWDCBQzEUt1ECIdCICUmXVY8D
+xrCMCsyiDDX4kSLyUP0fPmu5YLFaMIrhCUDSDIcztGBFaZIkGAtJYxyOoh5QBYrE
+OACknUByMBJSZEKgli1yUCtYbvywrsiq+i9j5mQH9DoVWZM5+QCspWua0+6xanlO
+D5sD2JSHKSmsKPHwv6EhGyiqKEuIHYMkp4meWAyHI9E0QdAmBOQ6RQWkiB6CoEgb
+Ch9PG5ANIwUMAJ7FaJZmcECiJEERNInTuI1hWRoTMIZnOYpgLfCFA3iJhFXAKA61
+0VaCoW1WCvZXQaYkI3YSjsmkwUhVTJMYLUsBSNGli2946/QG3QofL8/mdIZH1/y3
+z7g2/4VVRe9ZCk9QWw76auVzI91XBid9tpPqXu+/80HGxqg3Xds37r4z91JX+Wvr
+bTt2HTzWt88voUcMTNxxPuflqsnmwyvjWipsm3+bv/VFpC1kU+hP+fe8tNo2/7CW
+ltZtsb7dTeHiyjtxvRW1cf1zswvPtC41WFMjtVsfKJ/Pzte+/tzxk9KPp4xLJePF
+w/mp5elhu7e+Oo2wfFQRr+u5KbZ0frnzTHHgYxNTV+vvVykda72SbhNfCabDeFLV
+phu/bu0dvvL2mXvdxU19gwO2yroccsPR2VH3HzPjlR+OaXsvWEuTz32b+HzTiycX
+B8o6L41neQ/Pf3JfH7MmIGZENH3fvrBrsdpuvtogFK69GVA2tvBxjcM9FxveWuZT
+XxY0c834813/4GtGXZdxNJq4MRbUV5MW004ZDM8a5n+4/d3vS+PN4fEXOhpzA3Wu
+ga87V1Q6itMjzh5/P+x69FHX5Gd1IaUvKOp0g9/inv6EtonBkv3xuRu6tvQM11XE
+ko32t/Y9dX5hImTI9c6hishMKuPQ6swjZQGr63PPHbMWFw2dHv3ocXQwyXfolScX
+n3b/mbTOGKoG89umHfonalZ1U3cTg8Jr6z51tUX1rwuNrHaTuqDmGTrU3Bj9z9z0
+Ab/k66k7a9wjewomfINLky93DI+j7zpCMk6cPjJ91jwZUPJLu1pVeDE6Iv4vNG//
+A7EXlQ4=
+=1V/f
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/penman
+
+==================================================================

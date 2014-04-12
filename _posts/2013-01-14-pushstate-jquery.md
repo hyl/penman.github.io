@@ -234,7 +234,6 @@ $(function() {
   },
   
   loadPage = function(href) {
-    history.pushState({}, '', href);
     $main.load(href + " main>*", ajaxLoad);
   };
   
@@ -250,6 +249,7 @@ $(function() {
     if (href.indexOf(document.domain) > -1
       || href.indexOf(':') === -1)
     {
+      history.pushState({}, '', href);
       loadPage(href);
       return false;
     }
@@ -283,7 +283,6 @@ $(function() {
   },
   
   loadPage = function(href) {
-    history.pushState({}, '', href);
     $main.load(href + " main>*", ajaxLoad);
   };
   
@@ -301,6 +300,7 @@ $(function() {
     if (href.indexOf(document.domain) > -1
       || href.indexOf(':') === -1)
     {
+      history.pushState({}, '', href);
       loadPage(href);
       return false;
     }

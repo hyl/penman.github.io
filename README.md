@@ -1,4 +1,4 @@
-penman.github.com
+penman.github.io
 =====================
 
 My personal website.

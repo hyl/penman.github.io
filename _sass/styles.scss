@@ -250,12 +250,12 @@ pre {
 }
 
 blockquote {
-  $vertical-inset: .5em;
-  $border-width: .5em;
-  $after-border: 3%;
-
+  $vertical-inset: 0em;
   margin-top: 1em - $vertical-inset;
   padding-top: $vertical-inset;
+  font-style: italic;
+  color: gray;
+  margin-left: 1.5em;
 
   > :first-child {
     margin-top: 0;
@@ -270,15 +270,6 @@ blockquote {
 
     &:after {
       content: "”";
-    }
-  }
-
-  &, + address {
-    padding-left: $after-border;
-    border-left: $border-width solid green;
-
-    @media (min-width: 750px) {
-      margin-left: -1em;
     }
   }
 

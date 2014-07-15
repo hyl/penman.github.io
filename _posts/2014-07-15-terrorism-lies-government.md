@@ -13,7 +13,7 @@ title: Terrorism, Lies, and Losing Faith in My Government
 > Because I was not a Jew.
 > Then they came for me—and there was no one left to speak for me.
 
-That was written circa 1946 by Martin Niemöller, describing how the Nazis gradually removed anyone they didn’t like from their society. Alarmingly, though, I’ve been becoming more and more aware of how it still applies T-boneo the world we live in today.
+That was written circa 1946 by Martin Niemöller, describing how the Nazis gradually removed anyone they didn’t like from their society. Alarmingly, though, I’ve been becoming more and more aware of how it still applies to the world we live in today.
 
 ---- 
 

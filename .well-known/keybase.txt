@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of http://rosspenman.com
   * I am penman (https://keybase.io/penman) on keybase.
-  * I have a public key with fingerprint BF28 3057 59A3 2EE0 1EC3  9DDE 7440 6CEB DEBF 1CD9
+  * I have a public key with fingerprint 9B36 DC74 20E5 0DC0 278D  C839 05CC 00A7 63F8 2E0B
 
 To claim this, I am signing this object:
 
@@ -14,19 +14,19 @@ To claim this, I am signing this object:
     "body": {
         "client": {
             "name": "keybase.io node.js client",
-            "version": "0.4.7"
+            "version": "0.4.14"
         },
         "key": {
-            "fingerprint": "bf28305759a32ee01ec39dde74406cebdebf1cd9",
+            "fingerprint": "9b36dc7420e50dc0278dc83905cc00a763f82e0b",
             "host": "keybase.io",
-            "key_id": "74406CEBDEBF1CD9",
+            "key_id": "05CC00A763F82E0B",
             "uid": "24217ad5e69ac3a9f409665a2691c300",
             "username": "penman"
         },
         "merkle_root": {
-            "ctime": 1402932126,
-            "hash": "0faea7ed20dcd91a72dd2235e355266850afd9845cb1ec4c3d15702117e5ffa21740e54623570baf8380bbb72ee8ebc4b8bd11955508530f7fbe98641a811b36",
-            "seqno": 18810
+            "ctime": 1407249321,
+            "hash": "d329da3677d8bf46edb7d4773e3bceb776b0ba636d72ba97ce3416dceb41b41227e77fefc3e4fc4883fa5c8097ea77aaadcc8a4056242e5111af33ef6d31dd8d",
+            "seqno": 33441
         },
         "service": {
             "hostname": "rosspenman.com",
@@ -35,10 +35,10 @@ To claim this, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1402932166,
+    "ctime": 1407249502,
     "expire_in": 157680000,
-    "prev": "6556971b9650ccfc97fe99d24fe4ecf5e56c0188da8c8d9f864b8c05983fbf77",
-    "seqno": 12,
+    "prev": "e417fd2b78e1e3a4c0c2f4f53770c32f63ee2656f5b8ccffaad1d9667f67fe2c",
+    "seqno": 16,
     "tag": "signature"
 }
 
@@ -48,25 +48,25 @@ with the aforementioned key, yielding the PGP signature:
 Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
 Comment: GPGTools - https://gpgtools.org
 
-owFdkn1oVlUcx5+5zeZTZghC2YRxM4Ywn51z7j3n3vPEXLgXgkUGkk3KHs/rs9ue
-595n995Np+wPXcV8omjFshE4IfCf6UjRIGmEoxckKxOhMoysyMoVSGG0IDp3LrDO
-X+fl+/ue7+d3zksrazPZmuTB0rWv3238suajn3hm69TtH+61eCiHrfxeS5R8FSTp
-LGBlZeWtfjXMWaxyftgUhFLlno6bljQt1pCKYj8MjArknJxrjbSk8rRY+0FRRZXI
-T70srpFnA+xiymykFIBK2FRK5ToOIEJxqbiGQlJj2RfGyX9utRY9C740u4v6jq7N
-nV2bu2FHZ6ofXDxADoIuk1gRyoTNqHYAJQQzRCgUNgCpMFbRElJFBWUWpGnLKuov
-qUIUhovIIvFTAXQAojaCiJg8LO5L+TRTzFUSAWlyQuYiKRGysbIxRoR4GDAtqedg
-wQ2cI2wJsQsQhK7CWjOTzgEKO8SUuIAz7dke4Jy7phue4sLhHpcQUowx8LANtKu5
-oh5xIPMg5DYxALEaCEITzvMgGEmX0ZAvVBo77dkSWhTG8U28nAjLpqoShUkowpI5
-60uSSj6lToYrqXaX4oX42E2bAvcDad7s1keFRvq/jhDTEbW74keq4KcK7BIPmJHe
-o4aMJ8GYUBdySjAQQgvqakWpRI5WjhIaK0wEMAiSecKTVBtE7gmAqWdrrl33Fk5k
-grKi8Yz9YsCSwUhZIwdqGusyNdnM8vpl6bfNZFfc9e9fbuppyLz4in/wsYeqj+5Z
-dr5hDfrq/l92lo8/WT3S9fnZ07PHihc3rG64sDB69Cy56t75wHPv3dbz884DB/3u
-gbG1dv63LY8v1DZvOfRB+3z5cnVyunXbPPr2447md85MvH5i/+zC9fMn28rXn6od
-v1y/aqWbXbemfvLl5T+Of4qz4fq5mR1TV9et2De3697p39tH+996vnX+ixNgcvc3
-fG72zeNydOyz9tP7q4XX6q5sgi9cWnv4r+nuzGjvnr8rMxv/nOg8MlPXu+nGuUt0
-6xuNPd8NTjxytPeKXn1j3x+vTo1/ck94qu3ahdaBX9ej6Ie2ar7lXHHVoflTFzdu
-H7y79MTD39/3TMP7d4y9TZp7oH72Hw==
-=zgdQ
+owFVkl1sFUUUx2/FtlJDo1FIWrE2y4Oklut87c7ufVDxikpi0KIpL8jN7MyZdmnv
+7u3u9tZCanigNtbgR0iI4aFohdT6wEf5MCEYlReiaJpACAkBo9SIHySiNQ0+VJyt
+NcpkHmZy/ud/zm/OvL1sSa6hpvar3IS8mb+75uxPfu7Fb69v2W75kRq0Ctst2RtA
+mGanUJTBKlg9MOiLBPJB1BpGCvJbk9ZFTbtVhTgJotCoUJ7lMbOG2jN9lq2DsAvi
+ShxkZpbnU0dJzggCGymJCHeVdKmHbCkREtyh2iWAfOPZHSXpbWWtBc9SoLIydrGI
+0Fqjf9ol69CTJta/ECCMYC6UDY4nJBWeZshzHFsQx8OSIpQJE4gXmSoQlkWYdVuG
+uKcXSnEULTDLNMgEmCFOmEcJNv2IpNukKEo8JajDuXJ9zRxQPleMcwrUl+Bz7vjI
+F47B5MQXHpdAGTbM4DNsNiEcONegJQWmJXNdqoUtXeRxEJwLIZSUrmDIdgwK2Bhj
+oSkF7SiKlXKVAUigL4ysAqWM4aHsGlcDCVnb2ZstosVRkvyDl5dR2WRV4iiNZNRr
+Yt1pWilk1OlgJdMOgF86uGhT8oNQmZn9f6pZldtfxEak3YJXKkEMpSBT2NxxkVlZ
+HagaT2CYa0V87gIGKphEkmimbco5kpRohwIQx3a07btSam3AsTKj4tpsIPI/TuyY
+RkWX8UyCrlCk/TFYQ6/XrLwzV9OQq6u9I/u3uYal9/z7mVva6m9t4u9899DInmeq
+q1Z+NvXe7O7Zfeebwpe+/musePV0fWMfIRfKdePB/paL7jQ+3DN8+cH5Q8Ovvbvv
+55sntgXrP9zAd3biucc71o58LCZOXvn+sfE151cXrn3qnW5Drz5xYGDnaOMPZFPj
+8mhs9PC5zjM/ti7v3D94/OX+P1c81VRo3nb0DXfDpSPndt14f2DPJ+rsROP6I6ce
+bp7YvNHdOrR6pv7q5Ee/tvw2O0w79KPP/rL0hUf2XpyfujS544uNt3oPjObap2ca
+rn/5wRn/uS1tu3+fCorVgyM75h6YXvZ8U/eb63atmts7PvbWsbqp4mTp6LW+VM2s
++Jw2186v6bhv4Pj9Nw798U16170n/wY=
+=Av9I
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or

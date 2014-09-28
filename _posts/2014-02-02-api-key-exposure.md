@@ -32,7 +32,7 @@ But when you're actually using source control for managing your project, this so
 Some common methods of storing sensitive information that won't show up in your repository are:
 
 * Environment variables - these have the added advantage of making it easy to have different API keys or passwords for different environments your application may be deployed on (like development, staging and production for a web app).
-* Config files that are kept out of version control - these are typically JSON or YAML files that contain any sensitive information, like API keys or passwords, that should not be publicly available. Your application can then just import this file and access all of the information it needs. Depending on your programming language of choice, there may be a library available to help you with this.
+* Config files that are kept out of version control - these are typically JSON or YAML files that contain any sensitive information, like API keys or passwords, that should not be publicly available. Your application can then just import this file and access all of the information it needs.
 
 Depending on your programming language of choice, there may be some libraries available to help you with this, like [nconf](https://github.com/flatiron/nconf) for Node.js, or [any of these RubyGems](https://www.ruby-toolbox.com/categories/Configuration_Management).
 

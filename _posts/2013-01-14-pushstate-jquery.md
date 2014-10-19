@@ -22,7 +22,7 @@ The final parameter is the URL you want to link the new state to. This doesn't h
 
 ## Making links use `history.pushState`
 
-The ideal use for `history.pushState` using it for every link on your site that links to another page on your site, while ignoring those that go to other sites.
+The ideal use for `history.pushState` is using it for every link on your site that links to another page on your site, while ignoring those that go to other sites.
 
 First, we will use <a href="http://jquery.com">jQuery</a> to get links on our site using `history.pushState` by default.
 
@@ -210,7 +210,7 @@ $(function() {
 If the link is external, it will now be opened as normal.
 It is important to note that if you link to a subdomain, this will cause a problem. If this will be an issue for you, ensure to modify the condition to something more suitable.
 
-The final thing we need to address is that currently, the back button will not work after an <abbr title="Asynchronous JavaScript and XML">AJAX</abbr> call. We need to listen for the back button being clicked, and manually perform what the browser probably should be doing for us. Since we will be loading in new content from different events, we will need to move it into it's own function.
+The final thing we need to address is that currently, the back button will not work after an <abbr title="Asynchronous JavaScript and XML">AJAX</abbr> call. We need to listen for the back button being clicked, and manually perform what the browser probably should be doing for us. Since we will be loading in new content from different events, we will need to move it into its own function.
 
 {% highlight javascript %}
 $(function() {

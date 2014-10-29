@@ -6,11 +6,11 @@ title: Terrorism, Lies, and Losing Faith in My Government
 <i>I originally wrote this for a school assignment, but with the fiasco of the Data Rentention and Investigatory Powers Act being shoved through Parliament, I felt it might to appropriate to publish this here.</i>
 
 > First they came for the Socialists, and I did not speak out—  
-> Because I was not a Socialist.
+> Because I was not a Socialist.    
 > Then they came for the Trade Unionists, and I did not speak out—  
-> Because I was not a Trade Unionist.
+> Because I was not a Trade Unionist.    
 > Then they came for the Jews, and I did not speak out—  
-> Because I was not a Jew.
+> Because I was not a Jew.    
 > Then they came for me—and there was no one left to speak for me.
 
 That was written circa 1946 by Martin Niemöller, describing how the Nazis gradually removed anyone they didn’t like from their society. Alarmingly, though, I’ve been becoming more and more aware of how it still applies to the world we live in today.
